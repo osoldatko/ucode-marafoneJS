@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Reminder Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <ul>
+                <a href="/"><li class="btn btn-primary">Home</li></a>
+                <a href="/login"><li class="btn btn-primary">Login</li></a>
+                <a href="/register"><li class="btn btn-primary">Register</li></a>
+                <a href="/reminder"><li class="btn btn-primary">Reminder</li></a>
+            </ul>
+        </nav>
+
+        <div class="card container mt-4">
+            <div class="card-body">
+                <form action="/reminder" method="POST">
+        
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+            
+                    <button type="submit" class="btn btn-primary">Remind me my password</button>
+                </form>
+                {#TEXT#}
+            </div>
+        </div>
+
+    </body>
+</html>

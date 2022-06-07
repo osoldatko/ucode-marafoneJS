@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    padding: 15px 60px 0 60px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background: grey;
+}
+
+table {
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+th {
+    background: red;
+    width: 160px;
+    height: 80px;
+}
+
+td {
+    text-align: center;
+    background: lightgrey;
+    height: 80px;
+    width: 160px;
+}

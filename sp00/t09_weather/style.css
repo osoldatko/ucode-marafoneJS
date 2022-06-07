@@ -1,0 +1,32 @@
+﻿#weather {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    transition: all .2s cubic-bezier(.15,.65,.85,.65);
+}
+
+.day:hover {
+    box-shadow: -1px 1px 11px 4px rgba(142,142,142, 0.35);
+}
+
+.day span:first-child {
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.5em;
+    background: rgb(64, 149, 181);
+    color: white;
+}
+
+.day span:last-child {
+    font-weight: 400;
+    font-size: 2em;
+}

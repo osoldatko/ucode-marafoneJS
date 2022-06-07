@@ -1,0 +1,9 @@
+﻿.image {
+    display: block;
+    margin: 200px auto;
+    transition: all .15s cubic-bezier(.15,.65,.85,.65);
+}
+
+.image:hover {
+    transform: rotate(-30deg);
+}

@@ -1,0 +1,82 @@
+html {
+    width: 500px;
+    height: 550px;
+    background: rgb((56, 56, 56), 100%, 50%);
+    box-shadow: 0 -200px 100px -120px #090364 inset;
+    border-radius: 20px;
+    border: 10px solid rgb(65,105,225);
+    animation: background 5s infinite alternate;
+    margin: 0 auto;
+}
+
+@keyframes background {
+    70% {
+        background: #00E4FF;
+        box-shadow: 0 -200px 100px -100px #090364 inset;
+    }
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: bold 20px sans-serif;
+}
+.top .screen {
+    height: 50px;
+    width: 95%;
+    margin-left: 2.5%;
+    background: rgba(118, 130, 101,0.3);
+    border-radius: 10px;
+    border: 3px solid lightseagreen;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    letter-spacing: 2px;
+    color: black;
+
+}
+.top {
+    overflow: hidden;
+}
+.key {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+    .key span {
+        float: left;
+        line-height: 60px;
+        font-size: 40px;
+        border: 2px solid rgba(118, 130, 101,0.3);
+        height: 60px;
+        cursor: pointer;
+        width: 110px;
+        text-align: center;
+        border-radius: 5px;
+        background: #009de4;
+        margin: 0 7px 11px 0;
+        position: relative;
+        transition: all 0.3s ease;
+    }
+.key span.clear{
+    background: rgb(220,20,60);
+}
+.key span.equals {
+    background: #87F03C;
+    width: 225px;
+}
+.key span:hover {
+    background: rgb(65,105,225);
+}
+.key span.clear:hover {
+    background: rgb(254,32,32);
+}
+.key span.equals:hover {
+    background: greenyellow;
+}

@@ -1,0 +1,42 @@
+.container {
+    display: block;
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.stone {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transform: rotate(45deg);
+    background-color: yellow;
+}
+.stone.green {
+    float: left;
+    left: 15%;
+    background-color: green;
+}
+.stone.yellow {
+    background-color: yellow;
+}
+.stone.red {
+    float: left;
+    left: 25%;
+    background-color: red;
+}
+.stone.blue {
+    left: 15%;
+    background-color: blue;
+}
+.stone.pink {
+    left: 29%;
+    background-color: pink;
+}
+.stone.purple {
+    left: 5%;
+    background-color: purple;
+}
+
+

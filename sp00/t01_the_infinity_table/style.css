@@ -1,0 +1,32 @@
+img{
+    border-radius: 15px;
+}
+td{
+    border: 2px solid rgb(224,224,224);
+    padding: 10px;
+}
+h1{
+    text-align: left;
+}
+#t_head {
+    background-color: black;
+    color: white;
+}
+#Soul_Stone {
+    background-color: rgb(219,133,27);
+}
+#Time_Stone {
+    background-color: rgb(58,125,33);
+}
+#Space_Stone {
+    background-color: rgb(0,88,144);
+}
+#Mind_Stone {
+    background-color: rgb(255,249,31);
+}
+#Reality_Stone {
+    background-color: rgb(206, 27, 21);
+}
+#Power_Stone {
+    background-color: rgb(129,117,183);
+}

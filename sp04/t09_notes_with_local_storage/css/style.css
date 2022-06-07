@@ -1,0 +1,126 @@
+
+.ClearCookies {
+    margin-right: 20px;
+}
+
+.AddToCookies, .ClearCookies {
+  margin-top: 15px;
+  margin-left: 10px;
+  align-items: center;
+  appearance: none;
+  background-color: white;
+  border-radius: 26px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #2c3439;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 46px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 90%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 10ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.AddToCookies:hover, .ClearCookies:hover {
+  background: #F6F9FE;
+  color: #177853;
+}
+
+.AddToCookies:active, .ClearCookies:hover {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+.AddToCookies:focus, .ClearCookies:focus {
+  outline: none;
+  border: 2px solid #1c478c;
+}
+.AddToCookies:not(:disabled), .ClearCookies:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+.AddToCookies:not(:disabled):hover, .ClearCookies:not(:disabled):hover {
+  box-shadow: rgba(67, 73, 77, 0.3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+.AddToCookies:not(:disabled):focus, .ClearCookies:not(:disabled):focus {
+  box-shadow: rgba(64, 69, 72, 0.3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+.AddToCookies:not(:disabled):active, .ClearCookies:not(:disabled):active {
+  box-shadow: rgba(71, 78, 82, 0.3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+.AddToCookies:disabled, .ClearCookies:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: -40px;
+}
+
+.buttons {
+    margin: 50px 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons > input {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+}
+
+.add {
+    background-color: lightseagreen;
+    font-size: 20px;
+    color: ghostwhite;
+}
+
+.textarea {
+    margin: 40px 50px 50px 50px;
+    background-color: lightgray;
+}
+
+.clear {
+    font-size: 20px;
+}
+
+textarea {
+    resize: vertical;
+
+    margin: 10px 0 30px 30px;
+    width: calc(100% - 70px);
+    border: 2px solid rgb(16, 121, 77);
+}
+
+.text-input {
+    margin-left: 30px;
+}
+.notes-archives {
+    background-color: lightgray;
+    padding: 30px 0 20px 30px;
+    margin: 0 50px 50px 50px;
+}
+.output-text {
+    background: white;
+    padding: 5px;
+    width: calc(100% - 30px);
+}
